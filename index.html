@@ -1,0 +1,116 @@
+d
+
+<html>
+    <head>
+         <link rel="stylesheet" href="main.css"></link>
+         <script src="main.js"></script>
+    </head>
+    <body onload="maintainSize()" onresize="maintainSize()">
+
+       <div id="head">
+           <div id="logo">Spacepark</div>
+           <div id="box">
+                <input class="boxC" id="search" placeholder="Search" />
+                <div class="boxC" id="searchButton"></div>
+                <div class="boxC" id="profileN"></div>
+           </div>
+       </div>
+
+       <div id="aPro">
+         <div id="profileA"></div>
+         <div id="nameA">
+           <div id="nameAname">Alexandar Broke</div>
+           <div id="nameAabout">Unbrokeable</div>
+         </div>
+       </div>
+
+       <div id="aNav">
+          <div class="aNavOption" style="border-radius: 20px 20px 0px 0px;"> <div class="aNavIcon" id="aNavIcon1"></div><div class="aNavName">Home</div></div>
+          <div class="aNavOption"><div class="aNavIcon" id="aNavIcon2"></div><div class="aNavName">People</div></div>
+          <div class="aNavOption"><div class="aNavIcon" id="aNavIcon3"></div><div class="aNavName">Photos</div></div>
+          <div class="aNavOption"><div class="aNavIcon" id="aNavIcon4"></div><div class="aNavName">News Feed</div><div id="nFeedNum"></div></div>
+          <div class="aNavOption"><div class="aNavIcon" id="aNavIcon5"></div><div class="aNavName">Profile</div></div>
+          <div class="aNavOption" style="border-radius: 0px 0px 20px 20px;"><div class="aNavIcon" id="aNavIcon6"></div><div class="aNavName">Setting</div></div>
+       </div>
+
+       <div id="aInvitationTag">INVITATIONS</div>
+       <div id="aInvitagNum"></div>
+       <div id="aInvitation">
+
+         <div id="aInContain">
+
+
+
+         </div>
+
+           <div class="aArrow" id="aArrowUP" onclick="scrollIT(1)"></div>
+           <div class="aArrow" id="aArrowDOWN" onclick="scrollIT(2)"></div>
+       </div>
+
+
+       <div id="articleStory">
+
+
+
+       </div>
+
+       <div id="articleWhatsNew">
+
+            <div id="articleWhatsNewImage"></div>
+            <input id="articleWhatsNewInput" placeholder="What's new Alexandara !?"/>
+            <div id="articleWhatsNewBotton"></div>
+
+
+       </div>
+
+       <div class="articleContext" id="articleContext1">
+
+         <div class="articleContextEach">
+             <div class="articleContextEachImage"></div>
+             <div class="articleContextEachImageName">
+               Alesha Charm
+               <br/><span>20min ago</span>
+             </div>
+             <div class="articleContextEachMeta">
+               This was one of the most epic journeys, that i've got myself involved in. Maybe one of the most memorizable in my entire life !
+             </div>
+
+             <div class="ariticleContextEachPortImages">
+                  <div class="ariticleContextEachPortImages1"></div>
+                  <div class="ariticleContextEachPortImages2" ></div>
+                  <div class="ariticleContextEachPortImages3" ></div>
+             </div>
+
+         </div>
+
+
+       </div>
+
+       <div class="articleContext" id="articleChats" style="background:white;overflow:hidden">
+
+         <div id="ChatsContainer">
+
+
+         </div>
+         <input id="ChatsInput" placeholder="Hi !  there"/>
+         <div id="ChatsBotton">Send</div>
+
+       </div>
+
+
+
+       <div id="articleRequestTag">REQUESTS<div id="articleRequestNot">2</div></div>
+       <div id="articleRequest">
+
+
+       </div>
+
+       <div id="articleContactTag">CONTACT<div id="articleContactNot">2</div></div>
+       <div id="articleContact">
+
+       </div>
+
+    <h1 style="position:fixed;bottom:10px;left:10px;color:red;" id="debug"></h1>
+    <button style="height:20px;width:30px;" onclick="youGotInvitation('req.jpg')"></button>
+    </body>
+</html>
