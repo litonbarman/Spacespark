@@ -81,7 +81,7 @@ function maintainSize(){
 
 
 
- youGotInvitation('req.jpg');
+ youGotInvitation('User_profile_img/req.jpg');
  friendRequest();
  friendRequest();
 
@@ -97,12 +97,12 @@ function maintainSize(){
  addStory('story/story3.jpg');
 
 
- addContact('profile.jpg', "Thomas Rhett");
- addContact('req.jpg', "Sam Smith");
+ addContact('User_profile_img/profile.jpg', "Thomas Rhett");
+ addContact('User_profile_img/req.jpg', "Sam Smith");
  addContact('story/story1.jpg', "Liton Barman");
 
  // addPost(imageUrl, name, time, story, img1, img2, img3){
- addPost("profile.jpg", "Liton Barman", "10min ago", "dsfdsfddddddddvdsfvdsghs sgfsdfg sfdgsf", "", "", "");
+ addPost("User_profile_img/profile.jpg", "Liton Barman", "10min ago", "dsfdsfddddddddvdsfvdsghs sgfsdfg sfdgsf", "", "", "");
 
  addClientChatBubble("Hello World");
  addServerChatBubble("Hello !");
@@ -356,10 +356,10 @@ function addPost(imageUrl, name, time, story, img1, img2, img3){
 }
 
 let rightImg = new Image();
-rightImg = "left.svg";
+rightImg = "spaceSparkSystem_img/left.svg";
 
 let leftImg = new Image();
-leftImg = "right.svg";
+leftImg = "spaceSparkSystem_img/right.svg";
 
 function addClientChatBubble(text){
   var con = document.getElementById("ChatsContainer");
